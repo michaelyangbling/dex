@@ -1,0 +1,8 @@
+michaels-MBP-3:dexmate michael$ /usr/bin/python3 /Users/michael/Desktop/projects/dexmate/mock_flywheel.py
+[flink] consent-dropped=1 promoted=3
+  bronze <- event | user <email> tapped start
+  bronze <- telemetry | joint torque 4.2Nm call <phone>
+  bronze <- agent_trace | planned grasp; contacted <email>
+[gdpr] erased provenance=app-web removed=1
+[lake] bronze rows = 2
+[ok] flywheel invariants hold

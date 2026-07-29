@@ -1,0 +1,11 @@
+michaels-MBP-3:dexmate michael$ /usr/bin/python3 /Users/michael/Desktop/projects/dexmate/mock_rlhf_flywheel.py
+=== before fine-tuning (data-collection phase, epsilon-greedy) ===
+reached=1/20  avg_collisions=0.60  avg_steps=30.0
+
+[rlhf] collected 444 human preference pairs; fine-tuning...
+[feature_store] offline_log rows = 600
+
+=== after fine-tuning ===
+reached=20/20  avg_collisions=0.00  avg_steps=10.0
+
+[ok] reaction model updated via RLHF from user feedback; feature store holds the full offline training log
